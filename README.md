@@ -10,7 +10,7 @@
 
  * CSS
 # :camera_flash: Screenshots of Project
- <br> <br> 
+ <br> 
 
 ![Imagem do projeto](https://github.com/Lucianevianagbi/animacao-planetas/blob/main/img/img.jpg)
    <br>
