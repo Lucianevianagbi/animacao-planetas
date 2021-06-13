@@ -246,6 +246,7 @@ body {
 
   .planet h2 {
     font-size: 4em;
+    transform: translateY(0);
   }
 
   .planetEarth, .planetMars {
