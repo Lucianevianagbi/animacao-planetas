@@ -6,10 +6,13 @@
 }
 
 body {
+  flex-direction: column;
+  max-height: 100vh;
+  min-height: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -20,12 +23,14 @@ body {
 
 .planet h2 {
   color: #fff;
-  font-size: 4em;
+  font-size: 20px;
   margin-bottom: 40px;
   font-weight: 600;
+  transform: translateY(50px);
 }
 
 .planet .container {
+  transform: scale(0.5);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -36,11 +41,14 @@ body {
 
 .planetEarth {
   position: relative;
-  min-width: 50%;
-  height: 100vh;
   justify-content: center;
   align-items: center;
   background: #182357;
+
+  min-width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  display: flex;
 }
 
 .planetEarth .loader {
@@ -132,11 +140,14 @@ body {
 
 .planetMars {
   position: relative;
-  min-width: 50%;
-  height: 100vh;
   justify-content: center;
   align-items: center;
   background: #190703;
+
+  min-width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  display: flex;
 }
 
 .planetMars .loader {
@@ -227,21 +238,23 @@ body {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 800px) {
   body {
-    flex-direction: column;
+    flex-direction: row;
     max-height: 100vh;
-    min-height: 100%;
+    min-height: 100vh;
   }
 
-  h2 {
-    font-size: 20px !important;
+  .planet h2 {
+    font-size: 4em;
   }
 
   .planetEarth, .planetMars {
-    min-width: 100%;
-    height: 50vh;
-    overflow: hidden;
-    display: flex;
+    min-width: 50%;
+    height: 100vh;
+  }
+
+  .planet .container {
+    transform: scale(1);
   }
 }
