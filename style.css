@@ -26,7 +26,7 @@ body {
   font-size: 20px;
   margin-bottom: 40px;
   font-weight: 600;
-  transform: translateY(50px);
+  transform: translateY(84px);
 }
 
 .planet .container {
@@ -45,7 +45,7 @@ body {
   align-items: center;
   background: #182357;
 
-  min-width: 100%;
+  max-width: 100%;
   height: 50vh;
   overflow: hidden;
   display: flex;
@@ -143,8 +143,7 @@ body {
   justify-content: center;
   align-items: center;
   background: #190703;
-
-  min-width: 100%;
+  max-width: 100%;
   height: 50vh;
   overflow: hidden;
   display: flex;
