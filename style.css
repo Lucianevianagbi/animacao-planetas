@@ -31,7 +31,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  -webkit-box-reflect: below 1px linear-gradient(#0001,#0002)
+  -webkit-box-reflect: below 1px linear-gradient(#0001, #0002);
 }
 
 .planetEarth {
@@ -67,7 +67,7 @@ body {
   left: 0;
   width: 50%;
   height: 100%;
-  background: linear-gradient(to top, transparent, rgba(0,255,249,0.4));
+  background-image: linear-gradient(to top, transparent, rgba(0, 255, 249, 0.4));
   background-size: 200px 360px;
   background-repeat: no-repeat;
   border-top-left-radius: 200px;
@@ -86,15 +86,15 @@ body {
   border-radius: 50%;
   z-index: 10;
   box-shadow: 0 0 10px #00fff9,
-              0 0 20px #00fff9,
-              0 0 30px #00fff9,
-              0 0 40px #00fff9,
-              0 0 50px #00fff9,
-              0 0 60px #00fff9,
-              0 0 70px #00fff9,
-              0 0 80px #00fff9,
-              0 0 90px #00fff9,
-              0 0 100px #00fff9;
+  0 0 20px #00fff9,
+  0 0 30px #00fff9,
+  0 0 40px #00fff9,
+  0 0 50px #00fff9,
+  0 0 60px #00fff9,
+  0 0 70px #00fff9,
+  0 0 80px #00fff9,
+  0 0 90px #00fff9,
+  0 0 100px #00fff9;
 
 }
 
@@ -113,11 +113,11 @@ body {
   position: absolute;
   width: 340px;
   height: 340px;
-  background: url(img/earth.jpg);
+  background: url('img/earth.jpg');
   border-radius: 50%;
   background-size: cover;
   box-shadow: inset 0 0 20px #03a9f4,
-              0 0 120px #03a9f4;
+  0 0 120px #03a9f4;
   animation: animateEarth 20s linear infinite;
 }
 
@@ -164,7 +164,7 @@ body {
   left: 0;
   width: 50%;
   height: 100%;
-  background: linear-gradient(to top, transparent, rgba(255,87,34,0.4));
+  background-image: linear-gradient(to top, transparent, rgba(255, 87, 34, 0.4));
   background-size: 200px 360px;
   background-repeat: no-repeat;
   border-top-left-radius: 200px;
@@ -183,15 +183,15 @@ body {
   border-radius: 50%;
   z-index: 10;
   box-shadow: 0 0 10px #ff5722,
-              0 0 20px #ff5722,
-              0 0 30px #ff5722,
-              0 0 40px #ff5722,
-              0 0 50px #ff5722,
-              0 0 60px #ff5722,
-              0 0 70px #ff5722,
-              0 0 80px #ff5722,
-              0 0 90px #ff5722,
-              0 0 100px #ff5722;
+  0 0 20px #ff5722,
+  0 0 30px #ff5722,
+  0 0 40px #ff5722,
+  0 0 50px #ff5722,
+  0 0 60px #ff5722,
+  0 0 70px #ff5722,
+  0 0 80px #ff5722,
+  0 0 90px #ff5722,
+  0 0 100px #ff5722;
 
 }
 
@@ -210,11 +210,11 @@ body {
   position: absolute;
   width: 340px;
   height: 340px;
-  background: url(img/mars.jpg);
+  background: url('img/mars.jpg');
   border-radius: 50%;
   background-size: cover;
   box-shadow: inset 0 0 20px #ff5722,
-              0 0 120px #ff5722;
+  0 0 120px #ff5722;
   animation: mars 6s linear infinite;
 }
 
@@ -224,5 +224,24 @@ body {
   }
   100% {
     background-position: -340px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    flex-direction: column;
+    max-height: 100vh;
+    min-height: 100%;
+  }
+
+  h2 {
+    font-size: 20px !important;
+  }
+
+  .planetEarth, .planetMars {
+    min-width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
   }
 }
