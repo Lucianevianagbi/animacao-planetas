@@ -2,7 +2,7 @@
 
 ###   📽️ Demo video link: https://youtu.be/ib8AYFCZtdk
 
-###   📽️ Demo link: https://rotating-planets.vercel.app/
+###   📽️ Demo link: https://rotating-planets.vercel.app
 
 # :computer: Technologies Used:
 
@@ -12,7 +12,7 @@
 # :camera_flash: Screenshots of Project
  <br> 
 
-![Imagem do projeto](https://github.com/Lucianevianagbi/animacao-planetas/blob/main/img/img.jpg)
+![Imagem do projeto](https://github.com/Lucianevianagbi/animacao-planetas/blob/main/img/img.png)
    <br>
    
 ## :woman: By:  Luciane Viana
