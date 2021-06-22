@@ -41,7 +41,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  -webkit-box-reflect: below 1px linear-gradient(#0001, #0002);
+  
 }
 
 .planetEarth {
