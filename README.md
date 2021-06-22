@@ -12,7 +12,7 @@
 # :camera_flash: Screenshots of Project
  <br> 
 
-![Imagem do projeto](https://github.com/Lucianevianagbi/animacao-planetas/blob/main/img/img.png)
+![Imagem do projeto](https://github.com/Lucianevianagbi/animacao-planetas/blob/main/screenshots/img.png)
    <br>
    
 ## :woman: By:  Luciane Viana
