@@ -9,12 +9,10 @@ body {
   flex-direction: column;
   max-height: 100vh;
   min-height: 100%;
-
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-
   background: url("img/bg1.jpg") no-repeat center center;
   background-size: cover;
 }
@@ -84,7 +82,7 @@ body {
     transparent,
     rgba(0, 255, 249, 0.4)
   );
-  background-size: 200px 360px;
+  background-size: 200px 380px;
   background-repeat: no-repeat;
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;
@@ -169,7 +167,7 @@ body {
     transparent,
     rgba(255, 87, 34, 0.4)
   );
-  background-size: 200px 360px;
+  background-size: 200px 380px;
   background-repeat: no-repeat;
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;
@@ -207,7 +205,7 @@ body {
     background-position: 0;
   }
   100% {
-    background-position: -340px;
+    background-position: -380px;
   }
 }
 
