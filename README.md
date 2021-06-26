@@ -1,6 +1,6 @@
 #   :book: Project Rotation Planets 
 
-###   📽️ Demo video link: https://youtu.be/ib8AYFCZtdk
+###   📽️ Demo video referência: https://youtu.be/ib8AYFCZtdk
 
 ###   📽️ Demo link: https://rotating-planets.vercel.app
 
