@@ -1,8 +1,8 @@
-#   :book: Project Rotation Planets 
+# :book: Project Rotation Planets 
 
-###   📽️ Demo video referência: https://youtu.be/ib8AYFCZtdk
+### 📽️ Demo video reference: https://youtu.be/ib8AYFCZtdk
 
-###   📽️ Demo link: https://rotating-planets.vercel.app
+### 📽️ Demo link: https://rotating-planets.vercel.app
 
 # :computer: Technologies Used:
 
@@ -15,6 +15,6 @@
 ![Imagem do projeto](https://github.com/Lucianevianagbi/animacao-planetas/blob/main/screenshots/img.png)
    <br>
    
-## :woman: By:  Luciane Viana
+## :woman: By: Luciane Viana
 
 ### :link: LinkedIn: https://www.linkedin.com/in/luciane-viana
